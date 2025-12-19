@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+
+html, body {
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: hidden;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 500px;
+	background-color: white;
+	border-bottom : 1px solid lightgrey;
+}
+
+#arrow {
+	float: left;
+	width: 25px;
+	height: 20px;
+	margin: 16px 0px 10px 15px;
+}
+
+.title {
+	float : right;
+	margin : 15px 215px 0px 0px;
+	font-weight: bold;
+}
+
+.container {
+	padding: 30px;
+}
+
+p {
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 70px;
+	width: 500px;
+}
+
+footer img {
+	width: 50px;
+	margin: 0px 0px 0px 10px;
+}

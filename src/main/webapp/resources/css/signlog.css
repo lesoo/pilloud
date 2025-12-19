@@ -1,0 +1,82 @@
+@charset "EUC-KR";
+
+html, body {
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: hidden;
+}
+
+#arrow {
+	float: left;
+	width: 25px;
+	height: 20px;
+	margin: 16px 0px 10px 15px;
+}
+
+.container {
+	border: none;
+	width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 150px;
+	margin-bottom: 120px;
+	position: relative;
+	top: 50px;
+}
+
+.btns {
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+.btn1 {
+	height: auto;
+	border: none;
+    display: inline-block;
+    padding: 15px 80px;
+    margin: 10px;
+    border-radius: 10px;
+	background-color: #c4d89dff;
+    font-weight: 600;
+    font-size: 15px;
+   	color: #ffffff;
+}
+
+.btn2 {
+	height: auto;
+	border: none;
+    display: inline-block;
+    padding: 15px 95px;
+    margin: 0px 10px 10px;
+    border-radius: 10px;
+	background-color: #c4d89dff;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+img {
+/*  	position: relative;
+	top: 5px; */
+/* 	display: grid;
+	align-items: center; */
+	vertical-align: middle;
+}
+
+.bottom {
+	font-weight: bold;
+	text-align: center;
+	color: rgb(158, 158, 158);
+	margin: 20px;
+	position: relative;
+	top: 70px;
+}

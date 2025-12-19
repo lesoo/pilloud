@@ -1,0 +1,70 @@
+html, body {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: hidden;
+}
+#logo {
+	margin: 10px 0px 0px 30px;
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+
+#search {
+	position: relative;
+}
+
+input {
+	padding: 8px 8px 8px 12px;
+	margin: 30px 30px 0px 10px;
+	width: 330px;
+	float: right;
+	border-radius: 10px;
+	border: 1px solid #C4D89D;
+}
+
+#icon {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 37px;
+	right: 40px;
+	margin: 0;
+}
+
+.menu1 {
+	width: 120px;
+	margin: 50px 20px 0px -57px;
+}
+.menu2, .menu3 {
+	width: 120px;
+	margin: 50px 20px 0px 0px;
+}
+.menu4 {
+	width: 120px;
+	margin: 30px 20px 0px 43px;
+}
+
+.menu5, .menu6 {
+	width: 120px;
+	margin: 30px 20px 0px 0px;
+}
+footer{
+	position : fixed;
+	bottom :0; 
+	height:70px;
+	width : 500px;
+	background-color : white;
+}
+
+footer img {
+	width : 30px;
+	margin : 5px 0px 0px 100px;
+}

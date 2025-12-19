@@ -1,0 +1,155 @@
+html, body {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.title {
+	float: right;
+	margin: 15px 190px 0px 0px;
+	color: white;
+}
+
+hr {
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: lightgrey;
+	height: 1px;
+}
+
+#searcher {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 500px;
+	background-color: #C4D89D;
+}
+
+/* 라디오박스 */
+.chkradio {
+	text-align: center;
+	margin-top:80px;
+}
+
+.chkradio ul {
+	list-style: none;
+	padding: 30px;
+}
+
+.chkradio li {
+	display: inline;
+}
+
+.chkradio li label {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, .9);
+	border: 2px solid rgba(139, 139, 139, .3);
+	color: #adadad;
+	border-radius: 25px;
+	white-space: nowrap;
+	margin: 3px 0px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	transition: all .2s;
+}
+
+.chkradio li label {
+	padding: 8px 12px;
+	cursor: pointer;
+}
+
+.chkradio li label::before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 12px;
+	padding: 2px 6px 2px 2px;
+	transition: transform .3s ease-in-out;
+}
+
+.chkradio li input[type="radio"]:checked+label::before {
+	transform: rotate(-360deg);
+	transition: transform .3s ease-in-out;
+}
+
+.chkradio li input[type="radio"]:checked+label {
+	border: 2px solid #DCE2C5;
+	background-color: #C4D89D;
+	color: #fff;
+	transition: all .2s;
+}
+
+.chkradio li input[type="radio"] {
+	display: absolute;
+}
+
+.chkradio li input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+}
+
+.chkradio li input[type="radio"]:focus+label {
+	border: 2px solid #DCE2C5;
+}
+
+#arrow {
+	float: left;
+	width: 25px;
+	height: 20px;
+	margin: 18px 0px 10px 15px;
+}
+
+form>div {
+	margin: 10px;
+}
+
+/* 검색버튼 */
+.chkradio input[type=button] {
+	text-align : center;
+	width : 390px;
+	padding : 10px;
+	margin : 20px 0px 0px 0px;
+	border: 0px;
+    border-radius : 20px;
+	background-color: #C4D89D;
+    color: #fff;
+    font-size : 15px;
+    font-weight : bolder;
+}
+
+#icon {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 18px;
+	right: 20px;
+	margin: 0;
+}
+
+/* 하단바 */
+.footer {
+	position: fixed;
+	bottom: 0;
+	height: 70px;
+	width: 500px;
+}
+
+.home {
+	width: 50px;
+	margin: 0px 0px 0px 10px;
+}

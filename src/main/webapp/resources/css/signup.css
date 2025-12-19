@@ -1,0 +1,161 @@
+@charset "EUC-KR";
+
+html, body {
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	margin: 0 auto;
+	width: 500px;
+ 	height: 100%;
+	overflow: auto;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 30px; 
+	
+}
+
+form {
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+h4 {
+/*	border: 1px solid #000; */
+	display: inline-block;
+/* 	margin-left: 20px;
+	margin-right: 20px; */
+}
+
+input {
+	border: none;
+	border-bottom: solid 1px #000; 
+	font-size: 17px;
+}
+
+.text {
+	font-size: 17px;
+	display: inline-block;
+	position: relative;
+	left: -110px;
+}
+
+.cb1,
+.cb2 {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid;
+	cursor: pointer;
+} 
+
+.w3 {
+	position: relative;
+	left: -127px;
+}
+
+.w4 {
+	position: relative;
+	left: -120px;
+}
+
+.w6 {
+	position: relative;
+	left: -100px;
+}
+
+.w2 {
+	position: relative;
+	left: -135px;
+}
+
+#id {
+	width: 220px;
+}
+
+.pw, 
+.pwpw,
+.nm,
+.birth,
+.em,
+.tel {
+	width: 300px;
+}
+
+.signupBtn {
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-bottom: 90px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+ footer {
+	position: fixed;
+	bottom: 0;
+	height: 70px;
+	width: 500px;
+}
+
+footer img {
+	width: 50px;
+	margin: 0px 0px 0px 10px;
+} 
+/* 아이디를 입력하지않은 경우 */
+.id_input_re_0{
+	color : red;
+	display : none;
+}
+/* 중복아이디 존재하지 않는경우 */
+.id_input_re_1{
+	color : green;
+	display : none;
+}
+/* 중복아이디 존재하는 경우 */
+.id_input_re_2{
+	color : red;
+	display : none;
+}
+
+/* 유효성 검사 문구 */
+.final_id_ck{
+    display: none;
+}
+.final_pw_ck{
+    display: none;
+}
+.final_pwck_ck{
+    display: none;
+}
+.final_name_ck{
+    display: none;
+}
+.final_birth_ck{
+    display: none;
+}
+.final_mail_ck{
+    display: none;
+}
+.final_sex_ck{
+    display: none;
+}
+
+/* 비밀번호 확인 일치 유효성검사 */
+.pwck_input_re_1{
+        color : green;
+        display : none;    
+}
+.pwck_input_re_2{
+        color : red;
+        display : none;    
+}    
+ 
+ 

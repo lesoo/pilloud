@@ -1,0 +1,87 @@
+@charset "EUC-KR";
+
+html, body {
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.backBtn {
+	position: relative;
+	width: 40px;
+	height: 40px;
+ 	top: 10px;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 30px;
+	
+}
+
+form {
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+h4 {
+	display: inline-block;
+}
+
+input {
+	border: none;
+	border-bottom: solid 1px #000; 
+	font-size: 17px;
+}
+
+.w3 {
+	position: relative;
+	left: -127px;
+}
+
+.w4 {
+	position: relative;
+	left: -120px;
+}
+
+.id, 
+.pw {
+	width: 300px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 70px;
+	width: 500px;
+}
+
+footer img {
+	width: 50px;
+	margin: 0px 0px 0px 10px;
+}
+ 
+.logBtn {
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+/*     background-color: #C4D89D; */
+}
+/* 로그인 실패시 경고글 */
+.login_warn{
+    margin-top: 30px;
+    text-align: center;
+    color : red;
+} 

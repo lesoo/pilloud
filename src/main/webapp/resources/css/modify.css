@@ -1,0 +1,133 @@
+@charset "EUC-KR";
+
+html, body {
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: auto;
+}
+
+header {
+	/* position: fixed; */
+	top: 0;
+	height: 50px;
+	width: 500px;
+	background-color: white;
+	border-bottom : 1px solid lightgrey;
+}
+
+#arrow {
+	float: left;
+	width: 25px;
+	height: 20px;
+	margin: 16px 0px 10px 15px;
+}
+
+.title {
+	float : right;
+	margin : 15px 200px 0px 0px;
+	font-weight: bold;
+}
+
+/* h3 {
+	text-align: center;
+ 	display: inline-block;
+	left: 50%;
+	right: 50%;
+}
+
+img {
+	position: relative;
+	width: 40px;
+	height: 40px;
+ 	top: 10px;
+ 	left: -200px;
+} */
+
+.basic {
+	border: 1px solid;
+	display: inline-block;
+	background-color: rgb(196, 216, 157);
+	color: #ffff;
+	padding: 5px;
+ 	margin-left: 20px;
+ 	margin-top: 10px;
+	border-radius: 30px;
+}
+
+.binfo {
+	margin: 30px 40px 30px 30px;
+}
+
+#userinfo {
+	border: none; 
+	font-size: 17px;
+	padding-left: 30px;
+/* 	width: 50px; */
+}
+
+.detail {
+	border: 1px solid;
+	display: inline-block;
+	background-color: rgb(196, 216, 157);
+	color: #ffff;
+	padding: 5px;
+	margin-left: 20px;
+/*  	margin-top: 10px; */
+	border-radius: 30px;
+}
+
+#email,
+#nickname,
+#callnum,
+#gender {
+	padding: 5px;
+}
+
+.box {
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: sans-serif;
+	margin: 30px 10px 20px 30px;
+/* 	color: gray; */
+}
+
+.addBtn {
+	height: 30px;
+	background-color: rgb(196, 216, 157); 
+	border: none;
+	border-radius: 5px;
+	color: #ffff;
+}
+
+#pregnant {
+	margin: 30px 10px 20px 30px;
+}
+
+#check {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid;
+	cursor: pointer;
+	margin-left: 60px;
+}
+
+#editBtn {
+	/* position: fixed; */
+	border: none;
+	left: 0;
+	right: 0;
+	width: 483px;
+	height: 4rem;
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: medium;
+}
+
+input: disabled {
+	background: #000000;
+}

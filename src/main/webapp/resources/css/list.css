@@ -1,0 +1,95 @@
+@charset "EUC-KR";
+html, body {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: auto;  
+}
+hr {
+	border-width : 1px 0px 0px 0px; 
+	border-style : solid;
+	border-color: lightgrey;
+	height : 1px;
+}
+header {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 500px;
+	background-color: #C4D89D;
+}
+
+input {
+	padding: 8px 8px 8px 12px;
+	margin: 10px 10px 0px 10px;
+	width: 380px;
+	float: right;
+	border-radius: 10px;
+	border: 1px solid #C4D89D;
+}
+
+#arrow {
+	float: left;
+	width: 25px;
+	height: 20px;
+	margin: 18px 0px 10px 15px;
+}
+p {
+	font-size : 12px;
+	text-align : right;
+	display:inline-block;
+	border-bottom:1px solid lightgrey;
+	width : 100%;
+	padding : 0px 0px 10px 0px;
+}
+#pillList ul{
+	list-style:none;
+	display : block;
+	padding : 0px 0px 10px 40px;
+}
+#pillList ul li {
+	display : inline-block;
+}
+.company {
+	text-align : left;
+	margin-left : 50px;
+	font-size : 13px;
+}
+.title {
+	text-align : left;
+	margin-left : 50px;
+	margin-top:10px;
+	font-size : 20px;
+	font-weight : bold;
+}
+#next {
+	margin-left:170px;
+	margin-bottom : 10px;
+}
+
+#icon {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 18px;
+	right: 20px;
+	margin: 0;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	height: 70px;
+	width: 500px;
+}
+
+.home {
+	width: 50px;
+	margin: 0px 0px 0px 10px;
+}

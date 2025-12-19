@@ -1,0 +1,46 @@
+html, body {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #ddd;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ddd;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	overflow: hidden;
+}
+.top {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 500px;
+	background-color: white;
+	border-bottom : 1px solid lightgrey;
+}
+#arrow {
+	float: left;
+	width: 25px;
+	height: 20px;
+	margin: 16px 0px 10px 15px;
+}
+.title {
+	float : right;
+	margin : 15px 225px 0px 0px;
+}
+
+.nlist {
+	margin-top : 50px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	height: 70px;
+	width: 500px;
+}
+
+.home {
+	width: 50px;
+	margin: 0px 0px 0px 10px;
+}
